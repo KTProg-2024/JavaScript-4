@@ -1,7 +1,8 @@
+var posTop = 0;
+var posLeft = 0;
+
 function myMove() {
-  var elem = document.getElementById("animate");   
-  var posTop = 0;
-  var posLeft = 0;
+  var elem = document.getElementById("animate");    
   var id = setInterval(frame, 5);
   function frame() {
 	  posTop++;
